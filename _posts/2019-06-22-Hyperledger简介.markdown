@@ -4,7 +4,7 @@ title:      Hyperleger简介
 subtitle:   超级账本孵化器简介
 date:       2019-06-22
 author:     Bingo
-header-img: img/post-bg-hyperledger.png
+header-img: img/post-bg-linux.jpg
 catalog: true
 tags:
     - Hyperledger
