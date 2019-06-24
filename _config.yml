@@ -111,5 +111,8 @@ friends: [
     },{
         title: "袁勇CV",
         href: "http://yongyuan.name/"
+    },{
+        title: "OPENKG知识图谱社区",
+        href: "http://blog.openkg.cn/"
     }
 ]
