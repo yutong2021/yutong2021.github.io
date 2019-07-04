@@ -114,5 +114,8 @@ friends: [
     },{
         title: "OPENKG知识图谱社区",
         href: "http://blog.openkg.cn/"
+    },{
+        title: "刘焕勇KG",
+        href: "https://liuhuanyong.github.io/"
     }
 ]
