@@ -97,25 +97,28 @@ service-worker: true
 # Friends
 friends: [
     {
-        title: "王威廉NLP",
+        title: "王威廉[NLP]",
         href: "https://sites.cs.ucsb.edu/~william/"
     },{
-        title: "吴恩达ML",
+        title: "吴恩达[ML]",
         href: "https://www.andrewng.org/"
     },{
-        title: "哈希学习",
+        title: "哈希学习[DM]",
         href: "http://cs.nju.edu.cn/lwj/L2H.html"
     },{
-        title: "伯荧Blog",
+        title: "伯荧[Blog]",
         href: "https://qiubaiying.github.io/"
     },{
-        title: "袁勇CV",
+        title: "袁勇[CV]",
         href: "http://yongyuan.name/"
     },{
-        title: "OPENKG知识图谱社区",
+        title: "OPENKG知识图谱社区[KG]",
         href: "http://blog.openkg.cn/"
     },{
-        title: "刘焕勇KG",
+        title: "刘焕勇[KG]",
         href: "https://liuhuanyong.github.io/"
+    },{
+        title: "Ramesh Nc[CV]",
+        href: "https://www.informatalks.com/"
     }
 ]
