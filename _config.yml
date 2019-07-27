@@ -123,5 +123,8 @@ friends: [
     },{
         title: "Createmomo[ML]",
         href: "https://createmomo.github.io/"
+    },{
+        title: "陈丹琦[NLP]",
+        href: "https://www.cs.princeton.edu/~danqic/"
     }
 ]
