@@ -126,5 +126,11 @@ friends: [
     },{
         title: "陈丹琦[NLP]",
         href: "https://www.cs.princeton.edu/~danqic/"
+    },{
+        title: "扬帆起航",
+        href: "http://note4lin.top/"
+    },{
+        title: "阮一峰的网络日志",
+        href: "http://www.ruanyifeng.com/blog/"
     }
 ]
