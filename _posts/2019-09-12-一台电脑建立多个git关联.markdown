@@ -1,0 +1,12 @@
+---
+layout:     post
+title:      一台电脑建立多个git关联
+subtitle:   公司电脑要连内网gitlab怎么自己玩呢？
+date:       2019-09-12
+author:     Bingo
+header-img: img/post-bg-git.jpg
+catalog: true
+tags:
+    - git
+---
+
