@@ -132,5 +132,8 @@ friends: [
     },{
         title: "阮一峰的网络日志",
         href: "http://www.ruanyifeng.com/blog/"
+    },{
+        title: "刘知远-知乎[KG]",
+        href: "https://www.zhihu.com/people/zibuyu9/activities"
     }
 ]
