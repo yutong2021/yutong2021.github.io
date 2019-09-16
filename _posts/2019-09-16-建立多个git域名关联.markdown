@@ -2,7 +2,7 @@
 layout:     post
 title:      建立多个git域名关联
 subtitle:   公司电脑要连内网gitlab怎么自己玩呢？
-date:       2019-09-12
+date:       2019-09-16
 author:     Bingo
 header-img: img/post-bg-git.jpg
 catalog: true
