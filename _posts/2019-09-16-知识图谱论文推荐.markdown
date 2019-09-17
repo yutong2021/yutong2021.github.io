@@ -4,7 +4,7 @@ title:      知识图谱相关论文推荐
 subtitle:   最近看点啥？
 date:       2019-09-16
 author:     Bingo
-header-img: img/post-bg-KG.jpg
+header-img: img/post-bg-KG.png
 catalog: true
 tags:
     - 知识图谱
