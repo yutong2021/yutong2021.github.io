@@ -147,5 +147,8 @@ friends: [
     },{
         title: "Michael Schlichtkrull",
         href: "http://michschli.github.io/"
+    },{
+        title: "Jay Alammar",
+        href: "http://jalammar.github.io/"
     }
 ]
