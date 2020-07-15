@@ -150,5 +150,8 @@ friends: [
     },{
         title: "Jay Alammar",
         href: "http://jalammar.github.io/"
+    },{
+        title: "Fen Jie",
+        href: "https://vonfeng.github.io/"
     }
 ]
