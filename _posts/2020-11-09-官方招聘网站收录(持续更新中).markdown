@@ -40,6 +40,7 @@ tags:
 - 苹果: https://www.apple.com/jobs/cn/
 - 谷歌: http://careers.google.cn/
 - 亚马逊: https://jobs.amazon.cn/zh/business_categories
+- 特斯拉: https://www.tesla.cn/careers/search#/?region=2&country=10
 
 # 校园招聘
 - 阿里：https://job.alibaba.com/zhaopin/index.html
