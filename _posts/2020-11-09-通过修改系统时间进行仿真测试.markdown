@@ -23,7 +23,7 @@ tags:
 ## 尝试
 开始的时候，我尝试通过直接调用系统命令```date -s '2020-01-01'```来解决，但是发现不管是虚拟机上，还是在docker容器中，都无法永久修改；然后又尝试使用修改硬件时间，但还是不行，虚拟机经过短暂的时间后，又自动回到了标准时间。
 
-## fatetime
+## [Faketime](https://github.com/wolfcw/libfaketime)
 然后经过查找，我就发现了fatetime这个工具，这个工具通过修改系统环境变量的方式，可以让系统得到这个“假冒”的系统时间，有了fatetime，接下来的操作就容易多了。
 
 ## 操作
@@ -36,16 +36,17 @@ tags:
 
 Dockerfile
 ```Dockerfile
+FROM ...(自己找一个基础docker image, 比如ubuntu)
 # 为了防止某些基础ubuntu镜像不带make命令，先安装一些必要的命令
-> RUN apt-get -y install gcc automake autoconf libtool make git
+RUN apt-get -y install gcc automake autoconf libtool make git
 # clone faketime代码
-> RUN git clone https://github.com/wolfcw/libfaketime
+RUN git clone https://github.com/wolfcw/libfaketime
 # 进入目录并安装
-> WORKDIR libfaketime
-> RUN make
-> RUN make install
+WORKDIR libfaketime
+RUN make
+RUN make install
 # 配置环境变量
-> ENV LD_PRELOAD=/usr/local/lib/faketime/libfaketime.so.1 \
+ENV LD_PRELOAD=/usr/local/lib/faketime/libfaketime.so.1 \
     FAKETIME_NO_CACHE=1
 ```
 
