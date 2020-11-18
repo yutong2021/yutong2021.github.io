@@ -47,15 +47,45 @@ print("Hello World")
 右键hello.py -> run hello.py
 
 # Tips
-1. 字符串和数字的区别是什么？
-2. 拼接两个字符串，并输出拼接结果？(使用join)
+1. 
+Q. 字符串和数字的区别是什么？
+2. 
+Q. 拼接两个字符串，并输出拼接结果？(使用join)
 - "你好，"  
 - "George"
-3. 判断一下a, b, c的数据类型？(使用isinstance)
+A. 
+```python
+s1 = "Hello"
+s2 = "George"
+# 方法1
+print(s1 + " " + s2)
+# 方法2
+print("".join([s1, " ", s2]))
+```
+
+3. 
+Q. 判断一下a, b, c的数据类型？(使用isinstance)
 ```python
 a = 3
 b = 3.5
 c = "sleep time"
+```
+A. 
+```python
+def find_instance(input):
+    if isinstance(input, int):
+        print("输入了一个整数")
+    elif isinstance(input, float):
+        print("输入了一个浮点数")
+    elif isinstance(input, str):
+        print("输入了一个字符串")
+    else:
+        print("没见过这个类型呢: " + str(type(input)))
+
+if __name__ == '__main__':
+    inputs = [3, 3.5, "sleep time", [], dict(), {}, ()]
+    for input in inputs:
+        find_instance(input)
 ```
 
 
