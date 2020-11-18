@@ -46,7 +46,7 @@ print("Hello World")
 ```
 右键hello.py -> run hello.py
 
-# Tips
+# Q&A
 1. 
 Q. 字符串和数字的区别是什么？
 2. 

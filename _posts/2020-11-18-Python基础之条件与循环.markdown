@@ -1,0 +1,21 @@
+---
+layout:     post
+title:      Python基础之条件与循环
+subtitle:   python基础教学
+date:       2020-11-18
+author:     Bingo
+header-img: img/python_1.png
+catalog: true
+tags:
+    - python
+    - python基础教学
+---
+
+> Python条件语句是通过一条或多条语句的执行结果（True或者False）来决定执行的代码块。
+
+# Q&A
+1. Q: 使用条件语句完成[第一课](https://yanhuibin315.github.io/2020/11/17/Anaconda+Pycharm%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/)的第3题？
+
+2. 分别使用while和for循环计算1～100的和的问题？
+3. 输出1～100之间所有的质数？
+
