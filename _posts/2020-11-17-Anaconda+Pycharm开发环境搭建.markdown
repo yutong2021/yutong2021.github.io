@@ -41,7 +41,7 @@ Apply -> OK
 **注意：文件名为：字母、下划线、数字的组合，不要出现其他字符，且开头必须是字母或下划线**
 
 #### 输出Hello World
-```python
+``` python
 print("Hello World")
 ```
 右键hello.py -> run hello.py
@@ -54,7 +54,7 @@ Q. 拼接两个字符串，并输出拼接结果？(使用join)
 - "你好，"  
 - "George"
 A. 
-```python
+``` python
 s1 = "Hello"
 s2 = "George"
 # 方法1
@@ -65,13 +65,13 @@ print("".join([s1, " ", s2]))
 
 3. 
 Q. 判断一下a, b, c的数据类型？(使用isinstance)
-```python
+``` python
 a = 3
 b = 3.5
 c = "sleep time"
 ```
 A. 
-```python
+``` python
 def find_instance(input):
     if isinstance(input, int):
         print("输入了一个整数")

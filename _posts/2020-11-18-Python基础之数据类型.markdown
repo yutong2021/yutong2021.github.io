@@ -17,16 +17,19 @@ tags:
 1. Q: 什么是数据类型？Python都有哪些数据类型？
 2. Q: 比较一下list和set的区别？分别适用于什么场景？
 3. Q: 找到下面这个列表中重复的数字？（直接在...处补充即可）
-```python
+
+``` python
 def find_repeat_num(input)
     ...
 
 input = [1, 4, 5, 3, 2, 9, 0, 2, 3, 7, 6, 6]
 print(find_repeat_num(input))
 ```
+
 4. Q: 什么是dict？能用来做什么？
 5. Q: 找到下面两个字典中相同的key，并把它们的value相加？
-```python
+
+``` python
 def merge_two_dict(dict1, dict2)
     ...
 
