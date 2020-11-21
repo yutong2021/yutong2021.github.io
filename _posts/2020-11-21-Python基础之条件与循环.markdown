@@ -19,15 +19,20 @@ tags:
 2. 分别使用while和for循环计算1～100的和的问题？
 3. 输出1～100之间所有的质数？
 4. 完成下面这段程序？
+
 ```python
+
 """
 一共三门考试“Chineses”、“Math”、“English”，三个同学的成绩如下所示（按顺序分别是语文成绩、数学成绩、英语成绩）
 """
+
 person_score = {"Zhou":[88, 90, 97], "Li":[90, 91, 92], "Gao":[91, 85, 80]}
+
 """
 1. 分别找到各科成绩最好的同学叫什么？
 2. 计算每个同学的平均成绩？
 """
+
 ```
 5. 注册一个[Leetcode账号](https://leetcode-cn.com/)，并完成[LeetCode 9. 回文数](https://leetcode-cn.com/problems/palindrome-number/) ?
 
