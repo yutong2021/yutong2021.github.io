@@ -1,0 +1,33 @@
+---
+layout:     post
+title:      Python基础之条件与循环
+subtitle:   python基础教学
+date:       2020-11-21
+author:     Bingo
+header-img: img/python_1.png
+catalog: true
+tags:
+    - python
+    - python基础教学
+---
+
+> Python条件语句是通过一条或多条语句的执行结果（True或者False）来决定执行的代码块。
+
+# Q&A
+1. Q: 使用条件语句完成[第一课](https://yanhuibin315.github.io/2020/11/17/Anaconda+Pycharm%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/)的第3题？
+
+2. 分别使用while和for循环计算1～100的和的问题？
+3. 输出1～100之间所有的质数？
+4. 完成下面这段程序？
+```python
+"""
+一共三门考试“Chineses”、“Math”、“English”，三个同学的成绩如下所示（按顺序分别是语文成绩、数学成绩、英语成绩）
+"""
+person_score = {"Zhou":[88, 90, 97], "Li":[90, 91, 92], "Gao":[91, 85, 80]}
+"""
+1. 分别找到各科成绩最好的同学叫什么？
+2. 计算每个同学的平均成绩？
+"""
+```
+5. 注册一个[Leetcode账号](https://leetcode-cn.com/)，并完成[LeetCode 9. 回文数](https://leetcode-cn.com/problems/palindrome-number/) ?
+
