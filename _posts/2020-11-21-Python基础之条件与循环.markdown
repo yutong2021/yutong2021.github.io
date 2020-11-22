@@ -32,6 +32,21 @@ person_score = {"Zhou":[88, 90, 97], "Li":[90, 91, 92], "Gao":[91, 85, 80]}
 1. 分别找到各科成绩最好的同学叫什么？
 2. 计算每个同学的平均成绩？
 """
+names = person_score.keys()
+
+cat = ["Chinese", "Math", "English"]
+i = 0
+max_chinese, max_math, max_english = 0, 0, 0
+
+while i < 3:
+    max_name = ""
+    max_score = 0
+    for name in names:
+        if person_score[name][i] > max_score:
+            max_name = name
+            max_score = person_score[name][i]
+    print(cat[i] + "最好的是：" + max_name + ", 他的成绩是：" + str(max_score))
+    i += 1
 
 ```
 5. 注册一个[Leetcode账号](https://leetcode-cn.com/)，并完成[LeetCode 9. 回文数](https://leetcode-cn.com/problems/palindrome-number/) ?
