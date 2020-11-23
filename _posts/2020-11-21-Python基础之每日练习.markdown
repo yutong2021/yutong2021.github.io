@@ -20,7 +20,15 @@ tags:
 2. 了解break，continue，pass的用法与区别；
 3. 定义一个function，实现输出[Fibonacci序列](https://zhuanlan.zhihu.com/p/64530954)？
 ```python3
-fibonacci = [0, 1, ...]
+def fib(n):
+    result = []
+    a, b = 0, 1
+    while a < n:
+        result.append(a)    # see below
+        a, b = b, a+b
+    return result
+
+print(fib(10))
 
 ```
 4. [LeetCode509](https://leetcode-cn.com/problems/fibonacci-number/)
