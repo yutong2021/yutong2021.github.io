@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      Python基础之条件与循环
+title:      Python基础之每日练习
 subtitle:   python基础教学
 date:       2020-11-21
 author:     Bingo
@@ -13,7 +13,16 @@ tags:
 
 > Python条件语句是通过一条或多条语句的执行结果（True或者False）来决定执行的代码块。
 
-# Q&A
+# Q&A(2020-11-23)
+参考文档：[More Control Flow Tools](https://docs.python.org/3/tutorial/controlflow.html)
+
+1. 了解range()的用法；
+2. 了解break，continue，pass的用法与区别；
+3. 定义一个function，实现输出Fibonacci序列？
+4. [LeetCode509](https://leetcode-cn.com/problems/fibonacci-number/)
+
+
+# Q&A(2020-11-22)
 1. Q: 使用条件语句完成[第一课](https://yanhuibin315.github.io/2020/11/17/Anaconda+Pycharm%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/)的第3题？
 
 2. 分别使用while和for循环计算1～100的和的问题？
@@ -49,5 +58,6 @@ while i < 3:
     i += 1
 
 ```
+
 5. 注册一个[Leetcode账号](https://leetcode-cn.com/)，并完成[LeetCode 9. 回文数](https://leetcode-cn.com/problems/palindrome-number/) ?
 
