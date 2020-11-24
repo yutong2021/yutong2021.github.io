@@ -31,7 +31,8 @@ list1 = [0, 3, 5, 2, 6, 6, 1]
 
 1. 了解range()的用法；
 2. 了解break，continue，pass的用法与区别；
-3. 定义一个function，实现输出[Fibonacci序列](https://zhuanlan.zhihu.com/p/64530954)？
+3. 定义一个function，实现输出[Fibonacci序列](https://zhuanlan.zhihu.com/p/64530954)？ 
+
 ``` python3
 def fib(n):
     result = []
@@ -56,16 +57,7 @@ print(fib(10))
 
 ```python
 
-"""
-一共三门考试“Chineses”、“Math”、“English”，三个同学的成绩如下所示（按顺序分别是语文成绩、数学成绩、英语成绩）
-"""
-
 person_score = {"Zhou":[88, 90, 97], "Li":[90, 91, 92], "Gao":[91, 85, 80]}
-
-"""
-1. 分别找到各科成绩最好的同学叫什么？
-2. 计算每个同学的平均成绩？
-"""
 names = person_score.keys()
 
 cat = ["Chinese", "Math", "English"]
