@@ -13,6 +13,19 @@ tags:
 
 > Python条件语句是通过一条或多条语句的执行结果（True或者False）来决定执行的代码块。
 
+
+# Q&A(2020-11-24)
+参考文档：[数据结构](https://docs.python.org/3/tutorial/datastructures.html)
+1. 队列和堆栈有什么区别？分别适用于哪种场景？
+2. 尝试用列表实现队列的入队出队功能？
+3. 尝试用列表实现堆栈的入栈出栈功能？
+4. 完成 [LeetCode 1](https://leetcode-cn.com/problems/two-sum/) ?
+5. 对下面这个列表排序？
+``` python3
+list1 = [0, 3, 5, 2, 6, 6, 1]
+...
+```
+
 # Q&A(2020-11-23)
 参考文档：[More Control Flow Tools](https://docs.python.org/3/tutorial/controlflow.html)
 
