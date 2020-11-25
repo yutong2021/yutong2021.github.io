@@ -13,10 +13,27 @@ tags:
 
 > Python条件语句是通过一条或多条语句的执行结果（True或者False）来决定执行的代码块。
 
+# 如何理解类、函数、属性
+1. 思考：人类都有那些属性？人类能执行哪些动作？尝试完成下面这个类，补充几个方法：set_age、set_gender、set_height ...
+```python
+class Person:
+    def __init__(self, age, gender, height, weight):
+        self.age = age
+        self.gender = gender
+        self.height = height
+        self.weight = weight
+    
+    def get_age(self):
+        return self.age
+    
+    ...
+```
+
 # Q&A(2020-11-26)
 >参考文档：<br>
 [Python3模块](https://www.runoob.com/python3/python3-module.html)<br>
 [Modules](https://docs.python.org/3/tutorial/modules.html)<br>
+
 1. 模块有什么用？
 2. import ... ｜ from ... import ... ｜ import * 有什么区别？
 3. 自定义一个可以计算Fibonacci数的python模块，然后调用该模块？
