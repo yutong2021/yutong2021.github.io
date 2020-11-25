@@ -13,9 +13,21 @@ tags:
 
 > Python条件语句是通过一条或多条语句的执行结果（True或者False）来决定执行的代码块。
 
+# Q&A(2020-11-26)
+>参考文档：<br>
+[Python3模块](https://www.runoob.com/python3/python3-module.html)<br>
+[Modules](https://docs.python.org/3/tutorial/modules.html)<br>
+1. 模块有什么用？
+2. import ... ｜ from ... import ... ｜ import * 有什么区别？
+3. 自定义一个可以计算Fibonacci数的python模块，然后调用该模块？
+4. 了解什么是python主函数，如何定义它？
+5. 完成[LeetCode66](https://leetcode-cn.com/problems/plus-one/)
+
 
 # Q&A(2020-11-24)
-参考文档：[数据结构](https://docs.python.org/3/tutorial/datastructures.html)
+
+> 参考文档：[数据结构](https://docs.python.org/3/tutorial/datastructures.html)
+
 1. 队列和堆栈有什么区别？分别适用于哪种场景？
 2. 尝试用列表实现队列的入队出队功能？
 3. 尝试用列表实现堆栈的入栈出栈功能？
@@ -27,7 +39,7 @@ list1 = [0, 3, 5, 2, 6, 6, 1]
 ```
 
 # Q&A(2020-11-23)
-参考文档：[More Control Flow Tools](https://docs.python.org/3/tutorial/controlflow.html)
+> 参考文档：[More Control Flow Tools](https://docs.python.org/3/tutorial/controlflow.html)
 
 1. 了解range()的用法；
 2. 了解break，continue，pass的用法与区别；
