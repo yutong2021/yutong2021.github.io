@@ -13,6 +13,53 @@ tags:
 
 > Python条件语句是通过一条或多条语句的执行结果（True或者False）来决定执行的代码块。
 
+
+# Q&A(2020-11-30)
+> 知识点：excel格式文件读取 [openpyxl](https://geek-docs.com/python/python-tutorial/python-openpyxl.html)
+1. 合并下面两个excel文件：通过id把他们的成绩合并的到一起，如果没有成绩的初始化为0？
+> score1.xlsx
+```
+id,name,math,physical,chemistry,biological
+000,Li,90,88,93,94
+001,Han,66,73,62,80
+002,Gao,78,87,88,90
+```
+> score2.xlsx
+```
+id,name,chinese,english,history,geography,political
+000,Li,80,68,63,74
+001,Han,95,96,89,93
+003,Liu,88,87,89,92
+```
+2. 对上面合并后的文件，计算每个同学的平均成绩并排名？
+
+
+# Q&A(2020-11-28)
+> 知识点：文件读写、JSON对象解析<br>
+> 参考文档：
+<br>[Python File](https://www.runoob.com/python3/python3-file-methods.html)
+<br>[《Python3 JSON解析》](https://www.runoob.com/python3/python3-json.html)
+<br>[JSON语法](https://www.runoob.com/json/json-syntax.html)
+
+1. 创建一个文本文件，利用python找到这个文件，读取文件中的内容并把内容写入新的文件中？
+2. 把下面这个JSON对象写入json文件中？
+```json
+{ 
+    "country": "中国" , 
+    "province": "辽宁省",
+    "city": "抚顺市"
+}
+```
+3. 把下面这个数据写入excel格式的文件中？
+```
+id,name,age
+1,Jordan,35
+2,Allen,28
+3,Jenny,41
+4,Lilei,18
+```
+4. [LeetCode 20](https://leetcode-cn.com/problems/valid-parentheses/)
+
 # 如何理解类、函数、属性
 1. 思考：人类都有那些属性？人类能执行哪些动作？尝试完成下面这个类，补充几个方法：set_age、set_gender、set_height ...
 ```python
