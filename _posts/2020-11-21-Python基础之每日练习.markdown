@@ -16,6 +16,7 @@ tags:
 
 # Q&A(2020-11-30)
 > 知识点：excel格式文件读取 [openpyxl](https://geek-docs.com/python/python-tutorial/python-openpyxl.html)
+
 1. 合并下面两个excel文件：通过id把他们的成绩合并的到一起，如果没有成绩的初始化为0？
 > score1.xlsx
 ```
@@ -31,6 +32,7 @@ id,name,chinese,english,history,geography,political
 001,Han,95,96,89,93
 003,Liu,88,87,89,92
 ```
+
 2. 对上面合并后的文件，计算每个同学的平均成绩并排名？
 
 
