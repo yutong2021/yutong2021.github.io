@@ -156,5 +156,8 @@ friends: [
     },{
         title: "Jie Feng[DM]",
         href: "https://vonfeng.github.io/"
+    },{
+        title: "南瓜慢说[K8s Docker]",
+        href: "https://www.pkslow.com/"
     }
 ]
