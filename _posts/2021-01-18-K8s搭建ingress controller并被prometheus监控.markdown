@@ -161,6 +161,7 @@ Grafana → Create Import → Input dashboard id: 9614 → Load → chose Promet
 
 # Q&A
 - 出现Back-off restarting failed container
+```
 ...
 spec:
   containers:
@@ -168,6 +169,7 @@ spec:
     command: [ "/bin/bash", "-ce", "tail -f /dev/null" ]
     ...
 ...
+```
 - pod日志出现：Invalid IngressClass (Spec.Controller) value "nginx.org/ingress-controller". Should be "k8s.io/ingress-nginx"
 ```
 kubectl delete ingressclass nginx
