@@ -2,7 +2,7 @@
 layout:     post
 title:      K8s搭建prometheus+grafana+ingress-controller
 subtitle:   实现prometheus+grafana监控nginx-ingress-controller
-date:       2020-11-21
+date:       2021-01-18
 author:     Bingo
 header-img: img/k8s.png
 catalog: true
