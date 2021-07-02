@@ -1,0 +1,23 @@
+---
+layout:     post
+title:      2021年如何成为一名数据科学家
+subtitle:   数据科学家之路
+date:       2021-07-01
+author:     Bingo
+header-img: img/post-bg-datascience.png
+catalog: true
+tags:
+    - python
+    - 机器学习
+    - 统计学
+---
+
+> 说：要把大象装冰箱，拢共分几步
+
+如果你英文好可以直接去看原文: https://towardsdatascience.com/a-complete-data-science-roadmap-in-2021-77a15d6be1d9
+
+# 第一步 学习Python
+
+# 第二步 学习数据科学
+
+# 第三步 学习统计学
