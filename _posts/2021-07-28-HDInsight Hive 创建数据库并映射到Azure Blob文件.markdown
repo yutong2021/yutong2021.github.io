@@ -48,7 +48,7 @@ tags:
 2. 进入Hive View 2.0控制台
 3. 创建一个database用来存表
     ```sql
-    CREATE TABLE bingoDB;
+    CREATE DATABASE bingoDB;
     ```
 4. 创建一个按`date`分区的表
     ```sql
@@ -79,5 +79,5 @@ tags:
     ```
 2. 方法二：在blob的hd-container容器中创建一个文件夹```date=2021-02-02```，对应表的分区为"2021-02-02"，然后把csv文件直接导入该表格中，通过hql查看结果
     ```sql
-    select * from bingodb.`bingotable_ex` where `date`="2021-02-02";
+    SELECT * FROM bingodb.`bingotable_ex` WHERE `date`="2021-02-02";
     ```
