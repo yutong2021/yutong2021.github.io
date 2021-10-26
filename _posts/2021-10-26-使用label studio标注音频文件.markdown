@@ -12,7 +12,8 @@ tags:
     - ASR
 ---
 
-> 最近有个小朋友接个任务，帮助把音频转写成文字，并进行标注。
+> 最近有个小朋友接个任务，帮助把音频转写成文字，并进行标注。<br>
+> 项目地址: [speech-labeled](https://github.com/yanhuibin315/speech-labeled)
 
 # 前提
 - 公共的可访问audio文件地址
