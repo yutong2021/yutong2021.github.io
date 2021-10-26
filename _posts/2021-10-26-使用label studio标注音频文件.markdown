@@ -29,6 +29,7 @@ tags:
 经过多方对比，决定采用腾讯云的转写模型，使用腾讯云转写音频主要包括如下步骤：
 
 ## 1-1. 创建转写任务
+
 ```python
 import json
 from tencentcloud.common import credential
@@ -72,6 +73,7 @@ def create_url_task(audio_url):
 
 ## 1-2. 获取转写任务结果
 完成1后，会得到任务ID，再查询任务结果即可
+
 ```python
 import json
 from tencentcloud.common import credential
@@ -105,7 +107,9 @@ def get_url_res(task_id):
         print(err)
         return None
 ```
+
 结果大概长这样
+
 ```json
 {
   "Data": {
@@ -140,6 +144,7 @@ Audio/Speech Processing -> Automatic Speech Recognition using Segments
 # 3. 创建标注注解
 - 解析tencent转写结果
 - 向label-studio发送更新annotation请求
+
 ```python
 """
 更新label studio的标注结果
