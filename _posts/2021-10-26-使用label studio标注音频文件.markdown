@@ -133,7 +133,7 @@ def get_url_res(task_id):
 因为我们需要用到说话人标记，此处选择：
 
 Audio/Speech Processing -> Automatic Speech Recognition using Segments
-![](../img/label-studio-1.png)
+![](https://raw.githubusercontent.com/yanhuibin315/yanhuibin315.github.io/master/img/label-studio-1.png)
 ## 2-4. 确定标签
 在标签中加上“Speaker-0”, "Speaker-1"
 
@@ -246,6 +246,6 @@ print(response.text)
 
 ```
 
-# 人工审核
+# 4. 人工审核
 然后再在UI界面上审核标注即可
-![](../img/label-studio-2.png)
+![](https://raw.githubusercontent.com/yanhuibin315/yanhuibin315.github.io/master/img/label-studio-2.png)
