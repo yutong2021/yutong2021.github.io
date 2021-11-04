@@ -34,6 +34,8 @@ tags:
 - Labeling Setup: Conversational AI -> Intent Classification and Slot Filling
 - Set Choice: Good/Bad/Neutral
 
+![](https://raw.githubusercontent.com/yanhuibin315/yanhuibin315.github.io/master/img/post-1104-create-template.png)
+
 ### 1-2. 也可以通过code创建
 
 ```xml
@@ -103,6 +105,8 @@ print("ALL task created!")
 
 
 # 3. 标注
+
+![](https://raw.githubusercontent.com/yanhuibin315/yanhuibin315.github.io/master/img/post-1104-label-task.png)
 
 
 # 4. 导出标注结果
